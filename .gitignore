@@ -1,0 +1,32 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+*.test
+
+# Go built binaries
+sbx
+
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Go workspace file
+go.work
+
+# Go modules
+go.sum
+
+# Go mod cache
+/pkg/mod/
+
+.env
+
+# Ignore the binary file created by the Go application
+SecretBase
+
+# ignore everything in dist
+dist/
